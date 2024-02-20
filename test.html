@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown with Two Nested Dropdowns</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="mainDropdown"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Main Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="mainDropdown">
+          <div class="dropdown">
+            <button
+              class="dropdown-item dropdown-toggle"
+              type="button"
+              id="firstDropdown"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              First Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="firstDropdown">
+              <a class="dropdown-item" href="#">Item 1.1</a>
+              <a class="dropdown-item" href="#">Item 1.2</a>
+              <a class="dropdown-item" href="#">Item 1.3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropdown-item dropdown-toggle"
+              type="button"
+              id="secondDropdown"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Second Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="secondDropdown">
+              <a class="dropdown-item" href="#">Item 2.1</a>
+              <a class="dropdown-item" href="#">Item 2.2</a>
+              <a class="dropdown-item" href="#">Item 2.3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
