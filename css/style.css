@@ -4,13 +4,12 @@ body {
 }
 
 .main-page {
-  position: relative;
   height: 100vh;
 }
 
 body {
   background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans Myanmar", sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -18,7 +17,6 @@ body {
 }
 
 swiper-container {
-  position: relative;
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -51,18 +49,21 @@ swiper-slide img {
   height: 70px;
 }
 
+.nav-link {
+}
+
 .brand_name {
   color: #b0d68e;
   font-weight: bolder;
   font-size: 35px;
 }
 
-.nav-link {
+/* .nav-link {
   color: #fff !important;
-  font-weight: bold !important;
-  font-size: 20px !important;
-}
-
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  font-family: Arial, mm3, Helvetica, sans-serif;
+} */
 .pal_sey {
   border-right: 0.5px solid rgb(187, 187, 187);
 }
@@ -110,7 +111,7 @@ swiper-slide img {
 
 .road a {
   text-decoration: none;
-  color: #000000;
+  color: #e2e2e2;
 }
 
 .pal-menu {
@@ -181,12 +182,16 @@ swiper-slide img {
 
 /*////////////who we are//////////*/
 
-.whoImg img {
-  height: 570px;
+.whoImg {
+  height: 500px;
 }
 
 .whoWe {
   height: 70vh;
+}
+.whoWe p,
+h3 {
+  font-family: "Noto Sans Myanmar", sans-serif;
 }
 .palList_img {
   text-align: center;
