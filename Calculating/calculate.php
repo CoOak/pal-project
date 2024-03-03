@@ -16,8 +16,8 @@ if ($pel == 'မတ်ပဲ') {
     $myosae = $pelprice * $aca;
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
-    $say = 400000 * $aca;
-    $alote = $price * 40 * $aca;
+    $say = 200000 * $aca;
+    $alote = $price * 30;
     $ahtwe = 300000 * $aca;
     $revenue = 1580000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -47,8 +47,8 @@ if ($pel == 'မတ်ပဲ') {
     $myosae = $pelprice * $aca;
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
-    $say = 400000 * $aca;
-    $alote = $price * 40 * $aca;
+    $say = 200000 * $aca;
+    $alote = $price * 30;
     $ahtwe = 250000 * $aca;
     $revenue = 1250000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -79,7 +79,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 300000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 300000 * $aca;
     $revenue = 1200000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -110,7 +110,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 400000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 300000 * $aca;
     $revenue = 1520000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -141,7 +141,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 350000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 400000 * $aca;
     $revenue = 1980000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -172,7 +172,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 400000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 400000 * $aca;
     $revenue = 2080000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -203,7 +203,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 350000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 400000 * $aca;
     $revenue = 1740000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -234,7 +234,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 350000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 350000 * $aca;
     $revenue = 1504000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -265,7 +265,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 80000 * $aca;
-    $alote = $price * 25 * $aca;
+    $alote = $price * 30;
     $ahtwe = 200000 * $aca;
     $revenue = 880000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
@@ -296,7 +296,7 @@ if ($pel == 'မတ်ပဲ') {
     $htunset = 60000 * $aca;
     $myay = 60000 * $aca;
     $say = 200000 * $aca;
-    $alote = $price * 40 * $aca;
+    $alote = $price * 30;
     $ahtwe = 250000 * $aca;
     $revenue = 1248000 * $aca;
     $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;

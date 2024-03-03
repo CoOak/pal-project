@@ -104,8 +104,14 @@ include("nav.php");
 
 
         </table>
-        <div class="text-center">
-            <button id="loadMoreBtn" class="btn btn-primary">Load More</button>
+        <div class="text-center d-flex justify-content-center mb-5 mt-3">
+            <button id="loadMoreBtn" class="about_button wow animate__backInUp " data-wow-delay="0.6s">
+                ပိုမိုကြည့်ရှုရန်
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+
+                </div>
+            </button>
         </div>
     </div>
 

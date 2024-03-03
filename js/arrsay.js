@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     div.innerHTML = `
       <div class="text-decoration-none pesticideCard">
-        <div class="pe-5">
+        <div class="text-center">
           <img src="${p.img}" class="pesImg pesticideCard " alt="">
           <p class="pesTitle text-black text-center w-100">${p.name}</p>
         </div>

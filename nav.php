@@ -126,7 +126,7 @@ session_start();
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">ကျွန်ုပ်တို့အကြောင်း</a>
+                            <a class="nav-link " aria-current="page" href="main.php">မူလစာမျက်နှာ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"></a>
@@ -137,14 +137,41 @@ session_start();
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="mattpal.php">မတ်ပဲ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="GroundNut.php">မြေပဲ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="bocate.php">ဘိုကိတ်</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="satawpal.php">စားတော်ပဲ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="pal.php">ပဲစင်းငုံ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="palhtawpat.php">ပဲထောပတ်</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="pelkyi.php">ပဲကြီး</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="kalapal.php">ကုလားပဲ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="pelpote.php">ပဲပုပ်</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="palti.php">ပဲတီစိမ်း</a></li>
                                 <li>
 
@@ -158,22 +185,18 @@ session_start();
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="price.php">ယနေ့ပဲဈေးနှုန်းများ</a></li>
-                                <li><a class="dropdown-item" href="option.php">ခန့်မှန်းကုန်ကျငွေ တွက်ရန်</a></li>
                                 <li>
-                                    <?php
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="option.php">ခန့်မှန်းကုန်ကျငွေ တွက်ရန်</a></li>
 
 
-                                    if (isset($_SESSION['name'])) {
-                                        echo '<a class="dropdown-item" href="comment_1.php">အမေးအဖြေ</a>';
-                                    } else {
-                                        echo '<a class="dropdown-item" onclick="showSweetAlert()">အမေးအဖြေ</a>';
-                                    } ?>
 
 
 
                             </ul>
-                        </li>
 
+                        </li>
 
 
 
@@ -181,7 +204,7 @@ session_start();
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                ရောဂါပိုးမွှားနှင့်ဆေးများ
+                                ပဲအကြောင်းသိကောင်းစရာ
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
@@ -191,6 +214,20 @@ session_start();
                                     <hr class="dropdown-divider" />
                                 </li>
                                 <li><a class="dropdown-item" href="poethatsay.php">ဆေးများ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+
+                                <li>
+                                    <?php
+
+
+                                    if (isset($_SESSION['name'])) {
+                                        echo '<a class="dropdown-item" href="comment_1.php">အမေးအဖြေ</a>';
+                                    } else {
+                                        echo '<a class="dropdown-item" onclick="showSweetAlert()">အမေးအဖြေ</a>';
+                                    } ?>
+                                </li>
                             </ul>
                         </li>
                     </ul>
