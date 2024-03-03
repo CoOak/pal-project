@@ -233,20 +233,20 @@
                             $pelprice = $a['price'];
                             // code...
                         }
-                        $myosae = $pelprice * $aca;
+
                         $htunset = 60000 * $aca;
                         $myay = 60000 * $aca;
                         $say = 400000 * $aca;
                         $alote = $price * 40 * $aca;
                         $ahtwe = 300000 * $aca;
                         $revenue = 1580000 * $aca;
-                        $kone = $myosae + $htunset + $myay + $say + $alote + $ahtwe;
+                        $kone = $htunset + $myay + $say + $alote + $ahtwe;
                         $profit = $revenue - $kone;
 
                         echo '
    
                         <h1>ခန့်မှန်းကုန်ကျစရိတ်/အမြတ်ငွေတွက်ချက်မှု</h1>
-                        <p>မျိုးစေ့ကုန်ကျစရိတ်:' . $myosae . '</p>
+                        <p>မျိုးစေ့ကုန်ကျစရိတ်:' . '</p>
                         <p>ထွန်စက်မောင်းခ:' . $htunset . '</p>
                         <p>မြေညှိခ:' . $myay . '</p>
                         <p>ဆေးအမျိုးမျိုးကုန်ကျစရိတ်:' . $say . '</p>

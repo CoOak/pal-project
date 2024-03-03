@@ -92,6 +92,21 @@ session_start();
         /* Ensure the menu is fully visible */
         transition: opacity 2s ease !important;
     }
+
+    .PmySwiper2 {
+        height: 20%;
+        width: 40%;
+        box-sizing: border-box;
+        padding: 10px 0 10px 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .PmySwiper2 swiper-slide {
+        width: 15%;
+        height: 100%;
+        opacity: 0.5;
+    }
 </style>
 
 <body>
@@ -170,7 +185,7 @@ session_start();
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="#">ကျရောက်နိုင်သောရောဂါပိုမွှားများ</a>
+                                    <a class="dropdown-item" href="yawgar.php">ကျရောက်နိုင်သောရောဂါပိုမွှားများ</a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider" />

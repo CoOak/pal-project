@@ -83,7 +83,9 @@ swiper-slide {
   height: 20%;
   width: 40%;
   box-sizing: border-box;
-  padding: 10px 0;
+  padding: 10px 0 10px 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .PmySwiper2 swiper-slide {

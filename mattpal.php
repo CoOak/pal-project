@@ -72,7 +72,7 @@ include("nav.php");
                 </swiper-slide>
               </swiper-container>
 
-              <swiper-container class="PmySwiper2" loop="true" space-between="10" slides-per-view="4" free-mode="true" watch-slides-progress="true">
+              <swiper-container class="PmySwiper2 mx-auto" loop="true" space-between="10" slides-per-view="4" free-mode="true" watch-slides-progress="true">
                 <swiper-slide>
                   <img src="img/Blackgram3.jpg" />
                 </swiper-slide>
